@@ -1,9 +1,27 @@
 aid: treeline-biosciences
 name: Treeline Biosciences
-description: 'Treeline Biosciences is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Treeline Biosciences is a drug discovery and development company that
+  aspires to make great medicines reliably and repeatedly, matching compelling disease
+  targets with clinically proven drug approaches -- small-molecule inhibitors, protein
+  degraders, and antibody drug conjugates -- enabled in-house at its U.S. and EU research
+  facilities and integrated with in silico and machine learning models that help its
+  scientists understand protein targets at an atomic level. The company pursues a
+  target-centric preclinical pipeline serving patients with serious diseases across
+  oncology, immunology, and neurology, and is a portfolio company of GV. Treeline
+  publishes no public developer or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/treeline-biosciences/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/jrj1zxd5/production/31f2a105ae77924421520ad7c3fe6c7925ab2189-360x360.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Drug Discovery
+- Oncology
+- Immunology
+- Neurology
+- Antibody Drug Conjugates
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/treeline-biosciences-domain-security.yml
 - type: Website
-  url: http://treelinebiosciences.com
+  url: https://treeline.bio/
+- type: Blog
+  url: https://treeline.bio/news
+- type: Contact
+  url: https://treeline.bio/contact
+- type: Careers
+  url: https://treeline.bio/careers
+- type: PrivacyPolicy
+  url: https://treeline.bio/privacy-policy
+- type: LLMsTxt
+  url: llms/treeline-biosciences-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
